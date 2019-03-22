@@ -6,7 +6,7 @@ function [Y]=rr(X)
   j=0;
   for i=1:size(X,1);
     if X(i,2)!=a && j!=0;
-      Y=[Y;a,b,c];
+      Y=[Y;a,b,c,c/b];
       a=X(i,2);
       b=0;
       c=0;
