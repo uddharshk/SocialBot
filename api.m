@@ -4,7 +4,7 @@ function[Y]=api(X)
   c=0;
   b=0;
   j=0;
-  for i=1:size(X,1);
+  for i=2:size(X,1);
     if X(i,2)!=a && j!=0;
       Y=[Y;a,b,c,c/b];
       a=X(i,2);
