@@ -48,7 +48,18 @@ for line in reader:
         number_tweets += 1
         times.append(tweet_time)
     
-        
+average_time = (sum_time[0]/number_tweets, sum_time[1]/number_tweets)
+users_tsd[n].append(average_time)
+for i in range(len(times)):
+    squares = (average_time[0]-times[i][0])**2 + (average_time[1]-times[i][1])**2
+    tsd += squares
+tsd = tsd/number_tweets
+users_tsd[n].append(tsd)
+sum_time = (0,0)
+times = []
+number_tweets = 0
+tsd = 0
+n+= 1  
         
         
 
