@@ -59,7 +59,7 @@ sum_time = (0,0)
 times = []
 number_tweets = 0
 tsd = 0
-n+= 1  
+n += 1 
         
         
 
