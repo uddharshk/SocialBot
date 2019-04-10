@@ -5,7 +5,7 @@ file = open(r"C:\Users\uddha\Desktop\SocialBot\SocialBot\Benign196DataSet\tweets
 
 reader = csv.reader(file)
 
-# creating a list called tsd with user id, average tweet time as seen on a polar plot, standard deviation
+# creating a list called users_tsd with user id, average tweet time as seen on a polar plot, standard deviation
 # of the coordinates.
 #
 
